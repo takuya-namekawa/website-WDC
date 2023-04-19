@@ -482,6 +482,8 @@ img {
     padding: 0 20px;
 }
 
+
+
 body {
     font-size: 15px;
 }
@@ -536,10 +538,8 @@ body {
 }
 
 .mv__title {
-    font-size: 70px;
-    font-weight: bold;
-    line-height: 1;
-    margin-bottom: 10px;
+    font-size: 10vw;
+
 }
 
 .mv__date {
@@ -652,24 +652,64 @@ body {
     flex-direction: column-reverse;
 }
 
+.session-table__time {
+    font-size: 20px;
+}
 
+.table-type02 th, .table-type02 td {
+    padding: 5px 20px;
+}
+
+.table-type02 th {
+    width: 50px;
+}
+
+.ragistor {
+    background-size: 50%;
+}
+
+.registor__form {
+    padding: 8%;
+}
+
+.form__radio {
+    display: block;
+}
+
+.form__radio:not(:last-child) {
+    margub-right: 0;
+    margin-bottom: 5px;
+}
+
+.form__input,
+.form__select {
+    width: 100%;
+}
+
+.form input[type="tel"] {
+    width: 100%;
+}
 
 
 .form__textarea {
-    min-width: 350px;
-    min-height: 150px;
-    color: #333;
-    padding: 8px;
-    border-radius: 5px;
-    border: solid 1px #aaa;
-    background-color: #fff;
-    resize: both;
+   width: 100%;
+   min-width: 100%;
 }
+.footer {
 
+    padding: 49px 20px;
 
-
+    place-items: center;
 }
+.page-top__link {
 
+    width: 50px;
+    height: 50px;
+}
+.page-top__icon {
+    font-size: 25px;
+}
+}
 
 
 
